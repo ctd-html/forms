@@ -1,0 +1,57 @@
+body {
+    font-family: Helvetica;
+}
+
+fieldset {
+    legend {
+        font-weight: bold;
+        background:pink;
+    }
+}
+
+input, textarea {
+    &[required] {
+        border: 1px solid red;
+    }
+}
+
+a {
+    color: blue;
+
+    > b {
+        color: green;
+    }
+}
+
+$mycolor: blanchedalmond;
+
+input {
+    // border: none;
+    // border-bottom: 1px dashed;
+    border: 1px solid #999;
+    box-shadow: inset 1px 1px 4px fade-out(black,.4);
+    padding: 10px;
+    font-size: 15px;
+    font-family: Georgia;
+    outline: none;
+    border-radius: 36px;
+    color: $mycolor;
+    background:black;
+}
+
+select {
+    font-family: Georgia;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+option {
+    padding: 10px;
+}
+
+button {
+    background: #888;
+    border: none;
+    color: white;
+}

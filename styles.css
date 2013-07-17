@@ -1,0 +1,38 @@
+body {
+  font-family: Helvetica; }
+
+fieldset legend {
+  font-weight: bold;
+  background: pink; }
+
+input[required], textarea[required] {
+  border: 1px solid red; }
+
+a {
+  color: blue; }
+  a > b {
+    color: green; }
+
+input {
+  border: 1px solid #999;
+  box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  font-size: 15px;
+  font-family: Georgia;
+  outline: none;
+  border-radius: 36px;
+  color: blanchedalmond;
+  background: black; }
+
+select {
+  font-family: Georgia;
+  padding: 10px;
+  font-size: 20px; }
+
+option {
+  padding: 10px; }
+
+button {
+  background: #888;
+  border: none;
+  color: white; }
